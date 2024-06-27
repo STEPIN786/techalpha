@@ -42,7 +42,7 @@ use Illuminate\Support\Facades\Route;
     Route::get('a/certificate/qr-generate/{id}', [FrontendController::class, 'generateQrCode'])->name('certificate.qr');
 
 
-    Route::group(['middleware' => 'auth' ], function () {
+    Route::group(['middleware' => 'auth:admin' ], function () {
 
 
 
