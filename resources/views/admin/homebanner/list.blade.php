@@ -66,8 +66,8 @@
                                     @foreach ($list as $row)
                                         <tr>
                                             <td>{{ $i, $i++ }}</td>
-                                            <td>{{ $row->name }}</td>
                                             <td>{{ $row->enrollment_no }}</td>
+                                            <td>{{ $row->name }}</td>
                                             <td>{{ $row->course }}</td>
                                             <td><a href="{{ $row->link }}" target="_blank" style="color:blue;">Open Link</a></td>
                                             <td>
