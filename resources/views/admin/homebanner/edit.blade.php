@@ -49,35 +49,52 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-6">
+                        <!-- <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="center">Center<span class="text-red">*</span></label>
                                 <input id="center" type="text" class="form-control" name="center" value="{{ @$data->center }}" placeholder="Enter Center" required>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="col-sm-6">
+                        <!-- <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="complition_date">Complition Date<span class="text-red">*</span></label>
                                 <input id="complition_date" type="date" class="form-control" max="{{ date('Y-m-d') }}" value="{{ isset($data->complition_date) ? \Carbon\Carbon::parse($data->complition_date)->toDateString() : '' }}" name="complition_date" required>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label for="registration_number">Registration Number<span class="text-red">*</span></label>
+                                <label for="registration_number"><span class="text-red">*</span></label>
                                 <input id="registration_number" type="text" class="form-control" name="registration_number" value="{{ @$data->registration_number }}" placeholder="Registration Number" required>
                             </div>
                         </div>
-
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name">Enrollment no<span class="text-red">*</span></label>
+                                <input id="name" type="text" class="form-control" name="enrollment_no" value="{{ old('enrollment_no') }}" placeholder="Enter enrollment no" required>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="course">Course<span class="text-red">*</span></label>
+                                <input id="course" type="text" class="form-control" name="course" value="{{ old('course') }}" placeholder="Enter Course" required>
+                            </div>
+                        </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="student_image">Image</label>
                                 <input id="student_image" type="file" class="form-control" name="student_image">
                             </div>
                         </div>
-
-                        <div class="col-md-12">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="registration_number">Duration<span class="text-red">*</span></label>
+                                <input id="registration_number" type="text" class="form-control" name="duration" value="{{ old('duration') }}" placeholder="Registration Number" required>
+                            </div>
+                        </div>
+                     <div class="col-md-12">
                             <div class="form-group">
                                 <button type="submit" class="btn btn-success">Update</button>
                                 <button type="button" class="btn btn-danger" onclick="window.location='{{ route("certificate.list") }}'">Cancel</button>

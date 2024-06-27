@@ -20,7 +20,7 @@ class HomebannerController extends Controller
     {
         $list = Students::where('status', 1)->get();
         foreach ($list as $ls) {
-            $link = 'https://ahurahealing.com/certificate/'.$this->enc($ls->id);
+            $link = 'https://techalphainstitute.com/certificate/'.$this->enc($ls->id);
             $ls->link = $link;
         }
         $page_title = 'Certificate List';
@@ -66,11 +66,11 @@ class HomebannerController extends Controller
             return redirect()->back();
         }
         
-        $checkName = Students::where([['status','=',1],['registration_number','=',$request->registration_number]])->first();
-        if ($checkName) {
-            session()->flash('error','Registration Number already taken.');
-            return redirect()->back();
-        }
+        // $checkName = Students::where([['status','=',1],['registration_number','=',$request->registration_number]])->first();
+        // if ($checkName) {
+        //     session()->flash('error','Registration Number already taken.');
+        //     return redirect()->back();
+        // }
 
         $img_name = '';
         if ($request->hasFile('student_image') && $request->student_image != '') {
@@ -81,9 +81,12 @@ class HomebannerController extends Controller
         $banner = Students::create([
             'name' => $request->name,
             'course' => $request->course,
-            'center' => $request->center,
-            'complition_date' => $request->complition_date,
-            'registration_number' => $request->registration_number,
+            'enrollment_no' => $request->enrollment_no,
+            'duration' => $request->duration,
+            'score' => $request->score,
+            // 'center' => $request->center,
+            // 'complition_date' => $request->complition_date,
+            // 'registration_number' => $request->registration_number,
             'student_image' => $img_name,
             'created_at' => $date,
             'updated_at' => $date
@@ -117,11 +120,11 @@ class HomebannerController extends Controller
             return redirect()->route('certificate.list');
         }
         
-        $checkName = Students::where([['id','<>',$id],['registration_number','=',$request->registration_number],['status','=',1]])->first();
-        if ($checkName) {
-            session()->flash('error','Registration Number already taken.');
-            return redirect()->route('certificate.list');
-        }
+        // $checkName = Students::where([['id','<>',$id],['registration_number','=',$request->registration_number],['status','=',1]])->first();
+        // if ($checkName) {
+        //     session()->flash('error','Registration Number already taken.');
+        //     return redirect()->route('certificate.list');
+        // }
 
         if($request->hasFile('student_image') && $request->student_image != '') {
             if ($bannerFind->student_image) {
@@ -139,9 +142,13 @@ class HomebannerController extends Controller
         $banner = $bannerFind->update([
             'name' => $request->name,
             'course' => $request->course,
-            'center' => $request->center,
-            'complition_date' => $request->complition_date,
-            'registration_number' => $request->registration_number,
+            'enrollment_no' => $request->enrollment_no,
+            'duration' => $request->duration,
+            'score' => $request->score,
+            // 'center' => $request->center,
+            // 'complition_date' => $request->complition_date,
+            // 'registration_number' => $request->registration_number,
+            'created_at' => $date,
             'updated_at' => $date
         ]);
 

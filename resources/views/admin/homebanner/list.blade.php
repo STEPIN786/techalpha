@@ -53,6 +53,7 @@
                             <thead>
                                 <tr>
                                     <th>No</th>
+                                    <th>Enrollment No</th>
                                     <th>Student</th>
                                     <th>Course</th>
                                     <th>Link</th>
@@ -66,6 +67,7 @@
                                         <tr>
                                             <td>{{ $i, $i++ }}</td>
                                             <td>{{ $row->name }}</td>
+                                            <td>{{ $row->enrollment_no }}</td>
                                             <td>{{ $row->course }}</td>
                                             <td><a href="{{ $row->link }}" target="_blank" style="color:blue;">Open Link</a></td>
                                             <td>
