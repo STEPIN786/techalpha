@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
+    echo "here";die;
 
     Route::get('/', function () { return redirect()->route('login'); });
     Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
