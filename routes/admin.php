@@ -2,9 +2,9 @@
 
 use App\Http\Controllers\Admin\HomebannerController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
-use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Auth\RegisterController;
-use App\Http\Controllers\Auth\ResetPasswordController;
+use App\Http\Controllers\Admin\Auth\LoginController;
+use App\Http\Controllers\Admin\Auth\RegisterController;
+use App\Http\Controllers\Admin\Auth\ResetPasswordController;
 use Illuminate\Support\Facades\Route;
 
 /*
