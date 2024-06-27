@@ -14,30 +14,30 @@
     <title>Tech Alpha</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/css/themify-icons.css" rel="stylesheet" />
-    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
-    <link href="assets/css/elegant-icons.css" rel="stylesheet" />
-    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="assets/css/animate.css" rel="stylesheet" />
-    <link href="assets/css/bootsnav.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet" />
-    <link href="assets/css/Century-Gothic.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/themify-icons.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/flaticon-set.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/elegant-icons.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/magnific-popup.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/bootsnav.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/css/Century-Gothic.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="assets/js/html5/html5shiv.min.js"></script>
-      <script src="assets/js/html5/respond.min.js"></script>
+      <script src="{{ asset('assets/js/html5/html5shiv.min.js"></script>
+      <script src="{{ asset('assets/js/html5/respond.min.js"></script>
     <![endif]-->
 
     <!-- ========== Google Fonts ========== -->
@@ -129,8 +129,8 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="{{asset('/')}}">
-                        <img src="assets/img/logo.png" class="logo" alt="Logo">
-                         <img src="assets/img/iso.png" style="padding-left: 31px;height: 58px !important;" class="logo" alt="Logo">
+                        <img src="{{ asset('assets/img/logo.png') }}" class="logo" alt="Logo">
+                         <img src="{{ asset('assets/img/iso.png') }}" style="padding-left: 31px;height: 58px !important;" class="logo" alt="Logo">
                         
                           <!--<span style="padding-left: 31px;">ISO 9001:2015 </span>  -->
                     </a>
@@ -275,7 +275,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <img src="assets/img/logo.png" class="logo" alt="Logo">
+        <img src="{{ asset('assets/img/logo.png" class="logo" alt="Logo">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -335,7 +335,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <img src="assets/img/logo.png" class="logo" alt="Logo">
+        <img src="{{ asset('assets/img/logo.png" class="logo" alt="Logo">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
