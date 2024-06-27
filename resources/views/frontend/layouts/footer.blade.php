@@ -261,7 +261,7 @@
     <script src="{{ asset('assets/js/count-to.js') }}"></script>
     <script src="{{ asset('assets/js/YTPlayer.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('assets/js/loopcounter.js"></script>
+    <script src="{{ asset('assets/js/loopcounter.js')}}"></script>
     <script src="{{ asset('assets/js/bootsnav.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js') }}"></script>
