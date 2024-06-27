@@ -42,7 +42,7 @@
                                 <a href=""><img width="150" src="{{ asset('img/logo.png') }}" alt=""></a>
                             </div>
                             <p>{{ __('Join us today! It takes only few steps')}}</p>
-                            <form action="{{url('register')}}" method="post">
+                            <form action="{{url('admin/register')}}" method="post">
                                 @csrf
                                 <div class="form-group">
                                     <input type="name" class="form-control" placeholder="Name" name="name" value="{{ old('name') }}" required>
