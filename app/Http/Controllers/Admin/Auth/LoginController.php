@@ -38,7 +38,6 @@ class LoginController extends Controller
     public function __construct()
     {
        
-        echo "here";die;
         $this->middleware('auth:admin')->except('logout');
     }
 
