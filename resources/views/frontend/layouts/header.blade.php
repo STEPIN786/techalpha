@@ -38,6 +38,8 @@
     <!--[if lt IE 9]>
       <script src="{{ asset('assets/js/html5/html5shiv.min.js')"></script>
       <script src="{{ asset('assets/js/html5/respond.min.js') }}"></script>
+
+      
     <![endif]-->
 
     <!-- ========== Google Fonts ========== -->
