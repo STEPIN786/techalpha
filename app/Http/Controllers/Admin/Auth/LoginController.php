@@ -58,4 +58,13 @@ class LoginController extends Controller
             ? new Response('', 204)
             : redirect('login');
     }
+    public function clearCache()
+
+    {
+
+        \Artisan::call('cache:clear');
+
+        return view('clear-cache');
+
+    }
 }
