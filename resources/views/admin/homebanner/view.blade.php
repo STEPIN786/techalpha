@@ -288,13 +288,13 @@ line-height: 1.7;
   <span id="hide"></span><input id="txt" type="text" value="{{ @$data->name }}" style="width: 56%;">
 </p>
  <p>had successfully completed the course of 
-  <input id="txt" type="text" value="________{{ @$data->course }}________________" style="width:25%"> at TECH ALPHA Computer Institute.
+  <input id="txt" type="text" value=" {{ @$data->course }} " style="width:25%"> at TECH ALPHA Computer Institute.
 </p>
  <p style="margin-top: 5px;">The duration of the course was 
-  <span id="hide"></span><input id="txt" type="text" value="______{{ @$data->duuration }}_________________" style="width:35%">
+  <span id="hide"></span><input id="txt" type="text" value=" {{ @$data->duuration }} " style="width:35%">
 </p>
   <p>and has scored :
-  <span id="hide"></span><input id="txt" type="text" value="_______{{ @$data->score }}__________________" style="width:35%"></p> as critically assessed and evaluated.
+  <span id="hide"></span><input id="txt" type="text" value=" {{ @$data->score }} " style="width:35%"></p> as critically assessed and evaluated.
   
 
 </div>
