@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Frontend\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -86,7 +87,7 @@ Route::get('/data-analytic', [App\Http\Controllers\Frontend\AnalyticsController:
 
 Route::get('/graphicdesign', [App\Http\Controllers\Frontend\GraphicsDesigningController::class, 'index'])->name('graphicdesign');
 
-Route::get('/certificate/{id}', [HomeController::class, 'certificate']);
+Route::get('/certificate/{id}', [HomeController::class, 'certificate']);    
 
 
 
