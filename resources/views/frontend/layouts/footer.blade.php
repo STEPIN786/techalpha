@@ -112,7 +112,7 @@
                         <p> 
 			© Copyright "Techalpha" 2024. All rights reserved. Designed by    
             <a href="https://www.trindia.in/">RISIAR Step In Business Hub Pvt Ltd.</a>
-            <img class="ad-gol" src="public/assets/img/google.png" alt="google" style="height: 40px;">
+            <img class="ad-gol" src="{{ asset('assets/img/google.png') }}" alt="google" style="height: 40px;">
         </p>
                     </div>
                     
@@ -246,24 +246,24 @@
 
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="public/assets/js/jquery-1.12.4.min.js"></script>
-    <script src="public/assets/js/popper.min.js"></script>
-    <script src="public/assets/js/bootstrap.min.js"></script>
-    <script src="public/assets/js/jquery.appear.js"></script>
-    <script src="public/assets/js/jquery.easing.min.js"></script>
-    <script src="public/assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="public/assets/js/modernizr.custom.13711.js"></script>
-    <script src="public/assets/js/owl.carousel.min.js"></script>
-    <script src="public/assets/js/wow.min.js"></script>
-    <script src="public/assets/js/progress-bar.min.js"></script>
-    <script src="public/assets/js/isotope.pkgd.min.js"></script>
-    <script src="public/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="public/assets/js/count-to.js"></script>
-    <script src="public/assets/js/YTPlayer.min.js"></script>
-    <script src="public/assets/js/jquery.nice-select.min.js"></script>
-    <script src="public/assets/js/loopcounter.js"></script>
-    <script src="public/assets/js/bootsnav.js"></script>
-    <script src="public/assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.appear.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.easing.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/modernizr.custom.13711.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/progress-bar.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/count-to.js') }}"></script>
+    <script src="{{ asset('assets/js/YTPlayer.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/js/loopcounter.js') }}"></script>
+    <script src="{{ asset('assets/js/bootsnav.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -320,36 +320,36 @@
 		<script id="rendered-js">
 var testiomnialData = [
 {
-  avatar: "public/assets/img/advisor/usericon.png",
+  avatar: "{{ asset('assets/img/advisor/usericon.png') }}",
   name: "SUHEL SANDE",
   review: "Excellent teachers and course content, pleasent atmosphere and this is one of the best cost effective institutions in Kondhwa area. Excellent management by Afreen madam." },
 
 {
-  avatar: "public/assets/img/advisor/usericon.png",
+  avatar: "{{ asset('assets/img/advisor/usericon.png') }}",
   name: "NOOR GODIKAT",
   review: "Tech alpha institute is very good institute. Teaching staff is very nice. Special thanks to Noor sir. I will take admission for next course shortly." },
 
 {
- avatar: "public/assets/img/advisor/usericon.png",
+ avatar: "{{ asset('assets/img/advisor/usericon.png') }}",
   name: "NOORMOHAMMED MOMIN",
   review: "Very nice teaching staff. Friendly atmosphere. I will take Admission for another course shortly." },
 
 {
- avatar: "public/assets/img/advisor/usericon.png",
+ avatar: "{{ asset('assets/img/advisor/usericon.png') }}",
   name: "AMEER MUJAVAR",
   review: "Good. Teching is staf is so good. Staf is sported to all students. I am very happy to tech alpha because is very good tech for very software. Thank to my all teacher🙏" },
 
 {
-  avatar: "public/assets/img/advisor/usericon.png",
+  avatar: "{{ asset('assets/img/advisor/usericon.png') }}",
   name: "ASHRAF KHXN",
   review: "Just I have completed MS Office. I like Tech Alpha very much. Staff is very friendly. I will take admission for new course shortly." },
 
 {
-  avatar: "public/assets/img/advisor/usericon.png",
+  avatar: "{{ asset('assets/img/advisor/usericon.png') }}",
   name: "SHAKSHI TIWARI",
   review: "My experience of learning computer at tech alpha computer institute was great! I love the way how teachers explains any topic to their students. The best quality that I noticed about the teachers is they are very friendly with their student. My words can't define how amazing these classes are." },
 {
- avatar: "public/assets/img/advisor/usericon.png",
+ avatar: "{{ asset('assets/img/advisor/usericon.png') }}",
   name: "MAQBOOLAHMED NALBAND",
   review: "Tech Alpha is a Excellent Institute for learning. And guidance. All the best alpha team thank you" }];
 
@@ -366,7 +366,7 @@ for (let i of testiomnialData) slideHolder.innerHTML += `<div class="swiper-slid
                                         <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
-                                        <img class="testimonial-one__google-img" src="public/assets/img/advisor/google-revew.jpg" alt="">
+                                        <img class="testimonial-one__google-img" src="{{ asset('assets/img/advisor/google-revew.jpg') }}" alt="">
                                     </div>
 
 </div>
