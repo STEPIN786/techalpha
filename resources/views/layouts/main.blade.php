@@ -6,7 +6,7 @@
 
 <head>
 
-    <title>@yield('title', '') | Admmin</title>
+    <title>@yield('title', '') | Admin</title>
 
     <!-- initiate head with meta tags, css and script -->
 
