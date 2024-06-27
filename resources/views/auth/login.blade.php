@@ -144,7 +144,7 @@
 
                                 <div class="col text-right">
 
-                                    <a class="btn text-danger" href="{{ url('password/forget') }}">
+                                    <a class="btn text-danger" href="{{ url('admin/password/forget') }}">
 
                                         {{ __('Forgot Password?') }}
 
