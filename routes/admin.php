@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\Auth\ForgotPasswordController as AuthForgotPasswordController;
 use App\Http\Controllers\Admin\HomebannerController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Admin\Auth\LoginController;
@@ -30,6 +31,9 @@ use Illuminate\Support\Facades\Route;
 
 
     Route::get('password/forget',  function () { return view('admin.forgot-password'); })->name('password.forget');
+    Route::post('password/email', [AuthForgotPasswordController::class, 'sendResetLinkEmail'])->name('password.email');
+    Route::get('password/reset/{token}', [ResetPasswordController::class, 'showResetForm'])->name('password.reset');
+    Route::post('password/reset', [ResetPasswordController::class, 'reset'])->name('password.update');
 
 
 
