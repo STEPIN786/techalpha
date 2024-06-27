@@ -63,12 +63,12 @@
                             </div>
                         </div> -->
 
-                        <div class="col-sm-6">
+                        <!-- <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="registration_number"><span class="text-red">*</span></label>
                                 <input id="registration_number" type="text" class="form-control" name="registration_number" value="{{ @$data->registration_number }}" placeholder="Registration Number" required>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="name">Enrollment no<span class="text-red">*</span></label>
@@ -78,16 +78,16 @@
                         
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label for="course">Course<span class="text-red">*</span></label>
-                                <input id="course" type="text" class="form-control" name="course" value="{{ old('course') }}" placeholder="Enter Course" required>
+                                <label for="course">Score<span class="text-red">*</span></label>
+                                <input id="course" type="number" class="form-control" name="score" value="{{ old('score') }}" placeholder="Enter score" required>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <!-- <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="student_image">Image</label>
                                 <input id="student_image" type="file" class="form-control" name="student_image">
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="registration_number">Duration<span class="text-red">*</span></label>

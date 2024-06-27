@@ -53,7 +53,12 @@
                                 <input id="course" type="text" class="form-control" name="course" value="{{ old('course') }}" placeholder="Enter Course" required>
                             </div>
                         </div>
-
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="course">Score<span class="text-red">*</span></label>
+                                <input id="course" type="number" class="form-control" name="score" value="{{ old('score') }}" placeholder="Enter score" required>
+                            </div>
+                        </div>
                        
                         
                         <div class="col-sm-6">
