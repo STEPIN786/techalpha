@@ -36,8 +36,10 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="assets/js/html5/html5shiv.min.js"></script>
-      <script src="assets/js/html5/respond.min.js"></script>
+      <script src="{{ asset('assets/js/html5/html5shiv.min.js') }}"></script>
+      <script src="{{ asset('assets/js/html5/respond.min.js') }}"></script>
+
+
     <![endif]-->
 
     <!-- ========== Google Fonts ========== -->
@@ -275,7 +277,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <img src="{{ asset('assets/img/logo.png') }}" class="logo" alt="Logo">
+        <img src="{{ asset('assets/img/logo.png" class="logo" alt="Logo">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -335,7 +337,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <img src="{{ asset('assets/img/logo.png')}}" class="logo" alt="Logo">
+        <img src="{{ asset('assets/img/logo.png" class="logo" alt="Logo">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
