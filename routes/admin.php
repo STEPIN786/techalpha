@@ -21,9 +21,9 @@ use Illuminate\Support\Facades\Route;
 
 
 
-    echo "here";die;
+    
 
-    Route::get('/', function () { return redirect()->route('login'); });
+    // Route::get('/', function () { return redirect()->route('login'); });
     Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
     Route::post('/login', [LoginController::class, 'login']);
     Route::get('/register', function () { return view('admin.register'); });
