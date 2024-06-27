@@ -1,7 +1,27 @@
-<html><head><style>
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<style>
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Pinyon+Script|Rochester");
-
-
+ @media print {
+    @page {
+      size: A4 landscape;
+    }
+    body {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .container {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+   
+    .button{
+      display: none;
+    }
+    /* Additional print styles can be added here */
+  }
 
 .sans {
   font-family: "Open Sans", sans-serif;
@@ -246,7 +266,7 @@ line-height: 1.7;
 
 </head><body>
 
-  <div class="container pm-certificate-container">
+  <div class="container pm-certificate-container" id="content">
     <div class="outer-border"></div>
     <div class="inner-border"></div>
     
@@ -256,29 +276,26 @@ line-height: 1.7;
       <div class="row pm-certificate-header">
         <div class="pm-certificate-title cursive col-xs-12 text-center">
           <img src="{{asset('')}}img/8.png" class="top-logo">
-          <p style="text-align: center;">Good Thoughts....Good Words....Good Deeds..</p>
-          <h2 style="text-align:center; font-size:24px !important;">AHURA ALTERNATIVE HEALING</h2>
+          <p style="text-align: center;">An ISO Quality Management Certified 900:2015</p>
+          <h2 style="text-align:center; font-size:24px !important;">Tech ALPHA</h2>
           <img src="{{asset('')}}img/10.jpeg" class="second-logo">
-          <p>Central Certificate of Holistic Alternative Medicines &amp; Research</p>
-          <h4>INTERNATIONAL WORKSHOP</h4>
-          <p>Constituted under Ahura Foundation</p>
-<h4>Certificate of Course</h4>
+          <p> Certificate of Course Completion</p>
+          <p>This is to Certify that Mr./Mrs./Miss/Master</p>
+
 <div class="outer-block">
 <div class="Center-para" style="width:85%">
- <p>This Certification is Awarded you
-  <span id="hide"></span><input id="txt" type="text" value="_________{{ @$data->name }}___________________________________________________" style="width: 56%;">
+ <p>Enrollment Id No. 
+  <span id="hide"></span><input id="txt" type="text" value="{{ @$data->name }}" style="width: 56%;">
 </p>
- <p>Dated
-  <span id="hide"></span><input id="txt" type="text" value="_________{!! $data->complition_date !!}_______________" style="width:22%">
-for succesfully completing <input id="txt" type="text" value="________{{ @$data->course }}________________" style="width:25%"> Course.
+ <p>had successfully completed the course of 
+  <input id="txt" type="text" value=" {{ @$data->course }} " style="width:25%">at TECH ALPHA Computer Institute.
 </p>
- <p style="margin-top: 5px;">Reg. No:
-  <span id="hide"></span><input id="txt" type="text" value="______{{ @$data->registration_number }}_________________" style="width:35%">
+ <p style="margin-top: 5px;">The duration of the course was 
+  <span id="hide"></span><input id="txt" type="text" value=" {{ @$data->duuration }} " style="width:35%">
 </p>
-  <p>Place:
-  <span id="hide"></span><input id="txt" type="text" value="_______{{ @$data->center }}__________________" style="width:35%"></p>
-  <p>Date:
-  <span id="hide"></span><input id="txt" type="text" value="_____<?php echo date('Y-m-d');?>____________________" style="width:35%"></p>
+  <p>and has scored :
+  <span id="hide"></span><input id="txt" type="text" value=" {{ @$data->score }} " style="width:35%"></p> as critically assessed and evaluated.
+  
 
 </div>
 <div class="Center-para" style="width:15%">
@@ -307,4 +324,14 @@ for succesfully completing <input id="txt" type="text" value="________{{ @$data-
 
     </div>
   </div>
-</div></body></html>
+  
+  
+</div>
+<!-- <button class="button" onclick="printA4Landscape()">Print</button> -->
+
+<!-- <script>
+  function printA4Landscape() {
+    window.print();
+} -->
+</script>
+</body></html>
