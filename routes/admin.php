@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\Auth\ForgotPasswordController as AuthForgotPasswordController;
 use App\Http\Controllers\Admin\HomebannerController;
+use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\Auth\RegisterController;
