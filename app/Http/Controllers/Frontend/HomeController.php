@@ -30,6 +30,6 @@ class HomeController extends Controller
       $is_back = 'false';
       $qrlink = 'https://techalphainstitute.com/admin/a/certificate/qr-generate/'.$this->enc($id);
 
-      return view('Frontend.certificate', compact('data','page_title', 'is_back', 'qrlink'));
+      return view('frontend.certificate', compact('data','page_title', 'is_back', 'qrlink'));
   }
 }
