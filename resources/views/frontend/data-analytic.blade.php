@@ -705,7 +705,7 @@
         
         
          <!-- Start Course Details 
-<!--    ============================================= -->-->
+============================================ -->
 <!--    <div class="course-details-area default-padding">-->
 <!--        <div class="container">-->
 <!--            <div class="row">-->
