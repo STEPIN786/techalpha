@@ -48,6 +48,7 @@ use Illuminate\Support\Facades\Route;
 
         // logout route
         Route::get('/logout', [LoginController::class, 'logout'])->name('admin-logout');
+        Route::get('/clear-cache', [LoginController::class, 'clearCache'])->name('admin-clear-cache');
 
 
         // dashboard route  
