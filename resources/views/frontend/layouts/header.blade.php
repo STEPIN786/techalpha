@@ -145,11 +145,11 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right navigation " data-in="fadeInDown" data-out="fadeOutUp">
                        <li>
-                            <a href="{{asset('/')}}">Home </a>
+                            <a href="{{url('/')}}">Home </a>
                         </li>
                         
                          <li>
-                            <a href="{{asset('/about')}}">About Us  </a>
+                            <a href="{{url('/about')}}">About Us  </a>
                         </li>
                         
                         <!--  <li>-->
@@ -160,36 +160,36 @@
                              
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Courses </a>
                             <ul class="megamenu ">
-                                 <li><a href="{{asset('/python')}}">Python Full Stack Developer</a></li>
+                                 <li><a href="{{url('/python')}}">Python Full Stack Developer</a></li>
                                  
-                                  <li><a href="{{asset('/hardware')}}">Hardware</a></li>
-                                  <li><a href="{{asset('/data-analytic')}}">Data Analytics </a></li>
-                                  <li><a href="{{asset('/graphicdesign')}}">Graphics Designing</a></li>
+                                  <li><a href="{{url('/hardware')}}">Hardware</a></li>
+                                  <li><a href="{{url('/data-analytic')}}">Data Analytics </a></li>
+                                  <li><a href="{{url('/graphicdesign')}}">Graphics Designing</a></li>
                                  
                                 
                                  <li><a href="{{asset('/courses')}}">MSCIT</a></li>
-	 <li><a href="{{asset('/msoffice')}}">MS Office </a></li>
-	 <li><a href="{{asset('/cplus')}}">C++</a></li>
-	 <li><a href="{{asset('/advancedexcel')}}">Advance Excel</a></li>
-	 <li><a href="{{asset('/tallyprime')}}">Tally Prime </a></li>
- <li><a href="{{asset('/cprogramming')}}">	C Programming</a></li>
- <li><a href="{{asset('/javacore')}}">	Java Core</a></li>
- <li><a href="{{asset('/javacore')}}">Java Advance</a></li>
- <li><a href="{{asset('/corepython')}}">	Core Python</a></li>
- <li><a href="{{asset('/csharp')}}">	C#</a></li>
+	 <li><a href="{{url('/msoffice')}}">MS Office </a></li>
+	 <li><a href="{{url('/cplus')}}">C++</a></li>
+	 <li><a href="{{url('/advancedexcel')}}">Advance Excel</a></li>
+	 <li><a href="{{url('/tallyprime')}}">Tally Prime </a></li>
+ <li><a href="{{url('/cprogramming')}}">	C Programming</a></li>
+ <li><a href="{{url('/javacore')}}">	Java Core</a></li>
+ <li><a href="{{url('/javacore')}}">Java Advance</a></li>
+ <li><a href="{{url('/corepython')}}">	Core Python</a></li>
+ <li><a href="{{url('/csharp')}}">	C#</a></li>
 
                                         
-                             <li><a href="{{asset('/advancedcoding')}}">advanced Coding</a></li>
-                                <li><a href="{{asset('/digitalmarketing')}}">digital Marketing</a></li>
+                             <li><a href="{{url('/advancedcoding')}}">advanced Coding</a></li>
+                                <li><a href="{{url('/digitalmarketing')}}">digital Marketing</a></li>
                                 
                         
                                 
-                                  <li><a href="{{asset('/scratch')}}">scratch</a></li>
-                                <li><a href="{{asset('/sql')}}">SQL</a></li>
+                                  <li><a href="{{url('/scratch')}}">scratch</a></li>
+                                <li><a href="{{url('/sql')}}">SQL</a></li>
                                 
-                                  <li><a href="{{asset('/basiccoding')}}">basic Coding</a></li>
-   <li><a href="{{asset('/courses')}}">Full Stack </a></li>   
-                                <!--<li><a href="{{asset('/courses')}}">other Courses</a></li>-->
+                                  <li><a href="{{url('/basiccoding')}}">basic Coding</a></li>
+   <li><a href="{{url('/courses')}}">Full Stack </a></li>   
+                                <!--<li><a href="{{url('/courses')}}">other Courses</a></li>-->
                                         
                                     </ul>
                             
@@ -214,27 +214,27 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Courses </a>
                             <ul class="dropdown-menu">
                                   
-                                 <li><a href="{{asset('/courses')}}">	Computer Course</a></li>
-	 <li><a href="{{asset('/courses')}}">MS Office </a></li>
-	 <li><a href="{{asset('/courses')}}">C++</a></li>
-	 <li><a href="{{asset('/courses')}}">Advance Excel</a></li>
-	 <li><a href="{{asset('/courses')}}">Tally Prime </a></li>
- <li><a href="{{asset('/courses')}}">	C Programming</a></li>
- <li><a href="{{asset('/courses')}}">	Java Core</a></li>
- <li><a href="{{asset('/courses')}}">Java Advance</a></li>
- <li><a href="{{asset('/courses')}}">	Core Python</a></li>
- <li><a href="{{asset('/courses')}}">	C#</a></li>
+                                 <li><a href="{{url('/courses')}}">	Computer Course</a></li>
+	 <li><a href="{{url('/courses')}}">MS Office </a></li>
+	 <li><a href="{{url('/courses')}}">C++</a></li>
+	 <li><a href="{{url('/courses')}}">Advance Excel</a></li>
+	 <li><a href="{{url('/courses')}}">Tally Prime </a></li>
+ <li><a href="{{url('/courses')}}">	C Programming</a></li>
+ <li><a href="{{url('/courses')}}">	Java Core</a></li>
+ <li><a href="{{url('/courses')}}">Java Advance</a></li>
+ <li><a href="{{url('/courses')}}">	Core Python</a></li>
+ <li><a href="{{url('/courses')}}">	C#</a></li>
 
                                         
-                             <li><a href="{{asset('/courses')}}">advanced Coding</a></li>
-                                <li><a href="{{asset('/courses')}}">digital Marketing</a></li>
+                             <li><a href="{{url('/courses')}}">advanced Coding</a></li>
+                                <li><a href="{{url('/courses')}}">digital Marketing</a></li>
                                 
-                                <li><a href="{{asset('/courses')}}">graphic Design</a></li>
+                                <li><a href="{{url('/courses')}}">graphic Design</a></li>
                                 
-                                  <li><a href="{{asset('/courses')}}">scratch</a></li>
-                                <li><a href="{{asset('/courses')}}">SQL</a></li>
+                                  <li><a href="{{url('/courses')}}">scratch</a></li>
+                                <li><a href="{{url('/courses')}}">SQL</a></li>
                                 
-                                  <li><a href="{{asset('/courses')}}">basic Coding</a></li>
+                                  <li><a href="{{url('/courses')}}">basic Coding</a></li>
                               
                             </ul>
                         </li>
@@ -244,21 +244,21 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Gallery </a>
                             <ul class="dropdown-menu">
-                                  <li><a href="{{asset('/gallery')}}">Images</a></li>
+                                  <li><a href="{{url('/gallery')}}">Images</a></li>
                                
-                                <li><a href="{{asset('/videos')}}">Video</a></li>
+                                <li><a href="{{url('/videos')}}">Video</a></li>
                               
                             </ul>
                         </li>
                         
                         
                          <li>
-                            <a href="{{asset('/testimonials')}}">Testimonial   </a>
+                            <a href="{{url('/testimonials')}}">Testimonial   </a>
                         </li>
                         
                         
                         <li>
-                            <a href="{{asset('/contact')}}">Contact</a>
+                            <a href="{{url('/contact')}}">Contact</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
