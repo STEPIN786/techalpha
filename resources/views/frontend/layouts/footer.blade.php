@@ -401,6 +401,12 @@ function queryResizer() {
 }
 //# sourceURL=pen.js
     </script>
+    
+@if(Session::has('success'))
+<script>
+    $('#detail_modal').modal('show');
+</script>
+@endif
 </body>
 
 <!-- Mirrored from validthemes.net/site-template/edukat/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Mar 2024 06:17:48 GMT -->

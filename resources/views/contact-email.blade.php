@@ -49,7 +49,7 @@
 
     <div class="container">
     
-        <h1>Contact from <a href="https://techalphainstitute.com/">Eliteint</a></h1>
+        <h1>Contact from <a href="https://techalphainstitute.com/">techalphainstitute</a></h1>
         <div class="details">
             <p><strong>Name:</strong> {{ $formData['name'] }}</p>
             <p><strong>Email:</strong> {{ $formData['email'] }}</p>
