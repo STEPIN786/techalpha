@@ -19,7 +19,7 @@ Route::get('/about', [App\Http\Controllers\Frontend\AboutController::class, 'ind
 
 
 
-Route::get('/connect', [App\Http\Controllers\Frontend\AboutController::class, 'connectMail'])->name('connect');
+Route::post('/connect', [App\Http\Controllers\Frontend\AboutController::class, 'connectMail'])->name('connect');
 
 Route::get('/', [App\Http\Controllers\Frontend\AboutController::class, 'home'])->name('home');
 Route::get('/contact', [App\Http\Controllers\Frontend\ContactController::class, 'index'])->name('contact');
