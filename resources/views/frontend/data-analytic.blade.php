@@ -701,7 +701,8 @@
                 <!-- Single Item -->
                 <div class="item course-preview">
                     <div class="thumb">
-                        <img src="public/assets/img/courses/340x 228-3.png" alt="Thumb" class="img-fluid">
+                        <img src="{{asset('img/courses/340x 228-3.png')}}" alt="Thumb" class="img-fluid"> 
+                        <!-- public/assets/img/courses/340x 228-3.png -->
                         <!--<a href="https://www.youtube.com/watch?v=owhuBrGIOsE" class="popup-youtube light video-play-button item-center">-->
                         <!--    <i class="fa fa-play"></i>-->
                         <!--</a>-->
