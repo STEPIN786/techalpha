@@ -472,7 +472,7 @@
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+
     <script>
          $("#my_form").validate({
             rules: {
