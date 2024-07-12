@@ -790,7 +790,7 @@
                 @honeypot
                     <div class="form-group elem">
                         <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control"  name="name" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <input type="text" class="form-control"  name="name" id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="Enter your Name">
                         <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
                     </div>

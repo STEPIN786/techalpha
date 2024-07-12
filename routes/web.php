@@ -23,6 +23,7 @@ Route::post('/connect', [App\Http\Controllers\Frontend\AboutController::class, '
 
 Route::get('/', [App\Http\Controllers\Frontend\AboutController::class, 'home'])->name('home');
 Route::get('/contact', [App\Http\Controllers\Frontend\ContactController::class, 'index'])->name('contact');
+Route::post('/contact-submit', [App\Http\Controllers\Frontend\ContactController::class, 'submitContactForm'])->name('contact.submit');
 
 Route::get('/services-details', [App\Http\Controllers\Frontend\ServicesController::class, 'index'])->name('services-details');
 
