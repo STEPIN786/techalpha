@@ -17,6 +17,10 @@ use Illuminate\Support\Facades\Route;
 //Language Translation
 Route::get('/about', [App\Http\Controllers\Frontend\AboutController::class, 'index'])->name('about');
 
+
+
+Route::post('/connect', [App\Http\Controllers\Frontend\AboutController::class, 'connectMail'])->name('connect');
+
 Route::get('/', [App\Http\Controllers\Frontend\AboutController::class, 'home'])->name('home');
 Route::get('/contact', [App\Http\Controllers\Frontend\ContactController::class, 'index'])->name('contact');
 
