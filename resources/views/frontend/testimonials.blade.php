@@ -4,14 +4,16 @@
 @section('main.container')
 
  
-<div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover" >
+<!--<div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover" >-->
+ <div class="shadow text-dark bg-cover bg-light pt-10" style="background-image: url(public/assets/img/banner/hero-background.jpg); padding: 80px  40px;"  >
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <h1>Testimonials</h1>
-                    <ul class="breadcrumb">
+                    <ul class="bg-transparent breadcrumb">
                         <li><a href="{{asset('/')}}"><i class="fas fa-home"></i> Home</a></li>
-                        <li class="active">Testimonials</li>
+                        <li class="active">/ Testimonials</li>
                     </ul>
                 </div>
             </div>

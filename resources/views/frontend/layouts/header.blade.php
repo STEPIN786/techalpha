@@ -31,6 +31,7 @@
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/css/Century-Gothic.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -43,19 +44,7 @@
     <!-- ========== Google Fonts ========== -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap" rel="stylesheet">
 <!--Start of Tawk.to Script-->
-// <script type="text/javascript">
-// var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-// (function(){
-// var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-// s1.async=true;
-// s1.src='https://embed.tawk.to/6656bb3a981b6c564776017c/1hv1cmndu';
-// s1.charset='UTF-8';
-// s1.setAttribute('crossorigin','*');
-// s0.parentNode.insertBefore(s1,s0);
-// })();
-// </script>
-<!--End of Tawk.to Script-->
-</head>
+
 
  <!-- Preloader Start -->
  <div class="se-pre-con"></div>
@@ -128,7 +117,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="{{asset('/')}}">
+                    <a class="navbar-brand" href="{{url('/')}}">
                         <img src="{{ asset('assets/img/logo.png') }}" class="logo" alt="Logo">
                          <img src="{{ asset('assets/img/iso.png') }}" style="padding-left: 31px;height: 58px !important;" class="logo" alt="Logo">
                         

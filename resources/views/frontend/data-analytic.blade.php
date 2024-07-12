@@ -29,7 +29,8 @@
         </style>
         
         
-       <div class="shadow text-dark bg-cover bg-light pt-10" style="background-image: url(public/assets/img/banner/hero-background.jpg); padding: 8px 0 40px;"  >
+       <!--<div class="breadcrumb-area bg-gray text-left shadow dark text-light bg-cover pt-10 " style="padding: 8px 0 40px;"  >-->
+            <div class="shadow text-dark bg-cover bg-light pt-10" style="background-image: url(public/assets/img/banner/hero-background.jpg); padding: 8px 0 40px;"  >
         <div class="container">
             
             <div class="row">
@@ -46,7 +47,7 @@
                 <ul class="d-flex mt-4">
                 <li class="p-2 border-right border-success"><i class="fas fa-clock text-primary"></i> 3 Months</li>
                 <li class="p-2 border-right border-success">
-                    <i class="fas fa-language"></i>
+                    <i class="fas fa-language "></i>
                  English, Hindi, Marathi                
                  </li>
                 <li class="p-2">
@@ -55,7 +56,7 @@
                         <i class="fa fa-star text-warning"></i>
                         <i class="fa fa-star text-warning"></i>
                         <i class="fa fa-star text-warning"></i>
-                       <i class="fa fa-star"></i>
+                        <i class="fa fa-star text-warning"></i>
                     <span class="rating-count">(5 / 5 Rating)</span>
                     </div>
                 </li>
@@ -99,18 +100,24 @@
                                       
                                       <div id="who-can-do" style="padding-top: 100px; margin-top: -50px;">
                                         <h3 class="title" >Who can do?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                      
+                                     
+             <li> Students and Recent Graduates </li>
+             <li> IT Professionals</li>
+                <li> Business Professionals </li>
                                   </div>
                                 
                                        <div  id="job-opportunities" style="padding-top: 100px; margin-top: -50px;">
                                         <h3 class="title" >Job Opportunities</h3>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                    
                                      <ul>
-                                         <li>laboris nisi ut aliquip ex ea</li>
-                                         <li>laboris nisi ut aliquip ex ea</li>
-                                         <li>laboris nisi ut aliquip ex ea</li>
-                                         <li>laboris nisi ut aliquip ex ea</li>
+                                         <li>Data Analytics</li>
+                                         <li>Business Analyst</li>
+                                         <li>Data Scientist</li>
+                                         <li>Quantitative Analyst</li>
+                                         <li>Marketing Analyst</li>
+                                         <li>Operations Analyst</li>
+                                         <li>Financial Analyst</li>
                                      </ul>
                                      </div>
     
@@ -119,7 +126,7 @@
                     <!--accordian start-->
         <div class="border shadow-lg p-4 mt-4">
                     <h3 class="heading-title fw-bold" id="curriculum" style="padding-top: 100px; margin-top: -50px;" >Course Curriculum</h3>
-            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+           
              
 
     <div class="accordion mt-4" id="accordionExample">
@@ -128,7 +135,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> 
         Introduction to Statistical Analysis
-        </button>
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -178,7 +185,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> 
         Excel: Basics to Advanced
-        </button>
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -281,7 +288,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> 
         SQL
-        </button>
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -317,15 +324,15 @@
   
   
 </div>
-  <h3 class="fs-4 mb-2 mt-4">Table au</h3>
+  <h3 class="fs-4 mb-2 mt-4">Tableau</h3>
   
   <div class="accordion mt-4" id="accordionExample">
   <div class="card mb-0 text-dark" style="text-decoration:none;">
     <div class="card-header" id="headingFour">
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> 
-        Module1:Table au Course Material
-        </button>
+        Module1:Tableau Course Material
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -353,7 +360,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> 
         Module2: Learn Tableau Basic Reports
-        </button>
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -380,8 +387,8 @@
     <div class="card-header" id="headingSix">
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> 
-        Module3: Learn Table au Charts
-        </button>
+        Module3: Learn tableau Charts
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -427,7 +434,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7"> 
         Module4: Learn Tableau Advanced Reports
-        </button>
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -458,8 +465,8 @@
     <div class="card-header" id="heading-8">
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8"> 
-       Module5:LearnTableauCalculations&Filters
-        </button>
+       Module5:Learn Tableau Calculations & Filters
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -491,8 +498,8 @@
     <div class="card-header" id="heading-9">
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9"> 
-        Module6:LearnTableauDashboards
-        </button>
+        Module6:Learn Tableau Dashboards
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -511,7 +518,7 @@
  </ul>
 <h4>Module7: Server</h4>
   <ul>
-<li>Table au online.</li>
+<li>tableau online.</li>
 <li>Overview of Tableau Server.</li>
 <li>Publishing Tableau objects and scheduling / subscription.</li>
  </ul>
@@ -525,8 +532,8 @@
     <div class="card-header" id="heading-10">
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10"> 
-        Get Startedwith Power BI
-        </button>
+        Get Started with Power BI
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -553,7 +560,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-11" aria-expanded="false" aria-controls="collapse-11"> 
         PYTHON Basice
-        </button>
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -583,7 +590,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-13" aria-expanded="false" aria-controls="collapse-13"> 
         DATA SCIENCE USING PYTHON
-        </button>
+              <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -644,9 +651,13 @@
                            
                             <div class="course-includes">
                                 <ul>
-                                    <li>
-                                        <i class="fas fa-copy"></i> fees <span class="float-right">$60</span>
-                                    </li>
+                                                <li>
+                        <i class="fas fa-copy"></i> Fees <span class="float-right"><button type="button" class=" btn-warning btn " data-toggle="modal" data-target="#exampleModalCenter"
+                        style="padding: 1px 4px;font-size: xx-small;">
+  <span>click now</span>
+</button>
+</span>
+                    </li>
                                     <li>
                                         <i class="fas fa-clock"></i> Duration <span class="float-right">3 months</span>
                                     </li>
@@ -660,7 +671,7 @@
                                         <i class="fas fa-users"></i> Enrolled <span class="float-right">12K</span>
                                     </li>
                                 </ul>
-                                <button class="btn btn-warning ml-10">Start Now</button>
+                                <!--<button class="btn btn-warning ml-10">Start Now </button>-->
                             </div>
                           
                         </div>
@@ -698,8 +709,71 @@
         </div>
     </div>   
     
-    
-                    
+
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Connect now</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-4">
+        
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Name">
+    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Enter your phone Number">
+  </div>
+  
+   <div class="form-group">
+    <label for="exampleFormControlSelect1"> Course</label>
+  <!--  <select class="form-control" id="exampleFormControlSelect1">-->
+  <!--<option value="Python Full Stack Developer">Python Full Stack Developer</option>-->
+  <!--<option value="Hardware">Hardware</option>-->
+  <!--<option value="Data Analytics">Data Analytics</option>-->
+  <!--<option value="Graphics Designing">Graphics Designing</option>-->
+  <!--<option value="MSCIT">MSCIT</option>-->
+  <!--<option value="MS Office">MS Office</option>-->
+  <!--<option value="C++">C++</option>-->
+  <!--<option value="Advance Excel">Advance Excel</option>-->
+  <!--<option value="Tally Prime">Tally Prime</option>-->
+  <!--<option value="C Programming">C Programming</option>-->
+  <!--<option value="Java Core">Java Core</option>-->
+  <!--<option value="Java Advance">Java Advance</option>-->
+  <!--<option value="Core Python">Core Python</option>-->
+  <!--<option value="C#">C#</option>-->
+  <!--<option value="Advanced Coding">Advanced Coding</option>-->
+  <!--<option value="Digital Marketing">Digital Marketing</option>-->
+  <!--<option value="Scratch">Scratch</option>-->
+  <!--<option value="SQL">SQL</option>-->
+  <!--<option value="Basic Coding">Basic Coding</option>-->
+  <!--<option value="Full Stack">Full Stack</option>-->
+
+  <!--  </select>-->
+  <div>Data Analytics</div>
+  </div>
+ 
+  <!--<button type="submit" class="btn btn-warning">Submit</button>-->
+</form>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       <button type="submit" class="btn btn-warning">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+                  
         
         
         
@@ -899,9 +973,9 @@
 <!--                                    </ul>-->
 
 
-<!--                                    <h3>Table au</h3>-->
+<!--                                    <h3>tableau</h3>-->
 
-<!--                                      <h4>Module1:Table au Course Material</h4>-->
+<!--                                      <h4>Module1:tableau Course Material</h4>-->
 <!--                                    <ul>-->
 
 <!--<li>Start Page</li>-->
@@ -933,7 +1007,7 @@
 <!--</ul>-->
 
 
-<!--<h4>Module3: Learn Table au Charts</h4>-->
+<!--<h4>Module3: Learn tableau Charts</h4>-->
 <!--  <ul>-->
 <!--<li>Area Chart</li>-->
 <!--<li>	Bar Chart</li>-->
@@ -1012,7 +1086,7 @@
 <!-- </ul>-->
 <!--<h4>Module7: Server</h4>-->
 <!--  <ul>-->
-<!--<li>Table au online.</li>-->
+<!--<li>tableau online.</li>-->
 <!--<li>Overview of Tableau Server.</li>-->
 <!--<li>Publishing Tableau objects and scheduling / subscription.</li>-->
 <!-- </ul>-->

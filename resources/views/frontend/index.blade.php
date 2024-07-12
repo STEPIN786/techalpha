@@ -961,7 +961,7 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <!--<h5>Testimonials</h5>-->
+                       
                         <h2>Testimonials</h2>
                     </div>
                 </div>

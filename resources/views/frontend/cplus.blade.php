@@ -9,6 +9,7 @@
         
         
        <div class="shadow text-dark bg-cover bg-light pt-10" style="background-image: url(public/assets/img/banner/hero-background.jpg); padding: 8px 0 40px;"  >
+        <!--<div class="breadcrumb-area bg-gray text-left shadow dark text-light bg-cover pt-10 " style="padding: 8px 0 40px;"  >-->
         <div class="container">
             
             <div class="row">
@@ -20,9 +21,8 @@
                   
                   <div style="padding-top:40px;"> 
                     <h1>C++ Course</h1>
-                    <p>Lorem Debitis consequuntur impedit explicabo error distinctio, assumenda 
-                    corrupti! Dicta officia id, incidunt saepe tenetur optio autem veniam non dolore delectus alias 
-                    commodi reiciendis, quidem suscipit velit, quos nesciunt a! Veritatis, nemo.</p>
+                    <p>I'd be happy to explain some core concepts typically covered in C++ course.C++ is a powerful programming language widely used for system application software, game developement and embedded firmaware.
+                    Some fundamental concepts often taught in C++</p>
                   </div> 
         <ul class="d-flex mt-4">
                 <li class="p-2 border-right border-success"><i class="fas fa-clock text-primary"></i> 2 Months</li>
@@ -36,7 +36,7 @@
                         <i class="fa fa-star text-warning"></i>
                         <i class="fa fa-star text-warning"></i>
                         <i class="fa fa-star text-warning"></i>
-                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star text-warning"></i>
                     <span class="rating-count">(5 / 5 Rating)</span>
                     </div>
                 </li>
@@ -75,8 +75,9 @@
                      <div class="course-overview" id="overview" style="padding-top: 100px; margin-top: -50px;">
                                     <h3 class="heading-title">Course Description</h3>
 
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                   <p>I'd be happy to explain some core concepts typically covered in C++ course.C++ is a powerful programming language widely used for system application software, game developement and embedded firmaware.
+                    Some fundamental concepts often taught in C++ </p>
+                                    
                                       </div>
                                       
                                       <div id="who-can-do" style="padding-top: 100px; margin-top: -50px;">
@@ -121,7 +122,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> 
        Introduction to C++
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -146,7 +147,7 @@
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> 
 Data Types and Variables
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -167,7 +168,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> 
         Operators and Expressions
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -193,7 +194,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> 
        Control Flow
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -214,7 +215,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             Functions
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -236,7 +237,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> 
         Arrays and Strings
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -260,7 +261,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7"> 
         Pointers and References
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -284,7 +285,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8"> 
        Structures and Unions
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -307,7 +308,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9"> 
         Classes and Objects
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -331,7 +332,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10"> 
         File Handling
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -354,7 +355,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-11" aria-expanded="false" aria-controls="collapse-11"> 
         Templates and the Standard Template Library (STL)
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -378,7 +379,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-12" aria-expanded="false" aria-controls="collapse-12"> 
         Exception Handling
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -402,7 +403,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-13" aria-expanded="false" aria-controls="collapse-13"> 
        Advanced Topics
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -427,7 +428,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-14" aria-expanded="false" aria-controls="collapse-14"> 
         Evaluation
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -450,7 +451,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-15" aria-expanded="false" aria-controls="collapse-12"> 
         Project Development and Review
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -476,7 +477,7 @@ Data Types and Variables
       <h2 class="mb-0 text-dark border">
         <button class="btn btn-link btn-block text-left text-dark collapsed" style="text-decoration:none;" type="button" data-toggle="collapse" data-target="#collapse-16" aria-expanded="false" aria-controls="collapse-12"> 
         Resources
-        </button>
+            <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>
       </h2>
     </div>
 
@@ -518,10 +519,13 @@ Data Types and Variables
                            
                             <div class="course-includes">
                                 <ul>
-                                    <li>
-                                        <i class="fas fa-copy"></i> fees <span class="float-right">$60</span>
-                                    </li>
-                                    <li>
+                                     <li>
+                        <i class="fas fa-copy"></i> Fees <span class="float-right"><button type="button" class=" btn-warning btn " data-toggle="modal" data-target="#exampleModalCenter"
+                        style="padding: 1px 4px;font-size: xx-small;">
+  <span>click now</span>
+</button>
+</span>
+                    </li>
                                         <i class="fas fa-clock"></i> Duration <span class="float-right">2 months</span>
                                     </li>
                                     <li>
@@ -534,7 +538,7 @@ Data Types and Variables
                                         <i class="fas fa-users"></i> Enrolled <span class="float-right">12K</span>
                                     </li>
                                 </ul>
-                                <button class="btn btn-warning ml-10">Start Now</button>
+                                <!--<button class="btn btn-warning ml-10">Start Now          </button>-->
                             </div>
                           
                         </div>
@@ -571,6 +575,71 @@ Data Types and Variables
             </div>
         </div>
     </div>   
+    
+    
+     <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Connect now</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-4">
+        
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Name">
+    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Enter your phone Number">
+  </div>
+  
+   <div class="form-group">
+    <label for="exampleFormControlSelect1"> Course</label>
+  <!--  <select class="form-control" id="exampleFormControlSelect1">-->
+  <!--<option value="Python Full Stack Developer">Python Full Stack Developer</option>-->
+  <!--<option value="Hardware">Hardware</option>-->
+  <!--<option value="Data Analytics">Data Analytics</option>-->
+  <!--<option value="Graphics Designing">Graphics Designing</option>-->
+  <!--<option value="MSCIT">MSCIT</option>-->
+  <!--<option value="MS Office">MS Office</option>-->
+  <!--<option value="C++">C++</option>-->
+  <!--<option value="Advance Excel">Advance Excel</option>-->
+  <!--<option value="Tally Prime">Tally Prime</option>-->
+  <!--<option value="C Programming">C Programming</option>-->
+  <!--<option value="Java Core">Java Core</option>-->
+  <!--<option value="Java Advance">Java Advance</option>-->
+  <!--<option value="Core Python">Core Python</option>-->
+  <!--<option value="C#">C#</option>-->
+  <!--<option value="Advanced Coding">Advanced Coding</option>-->
+  <!--<option value="Digital Marketing">Digital Marketing</option>-->
+  <!--<option value="Scratch">Scratch</option>-->
+  <!--<option value="SQL">SQL</option>-->
+  <!--<option value="Basic Coding">Basic Coding</option>-->
+  <!--<option value="Full Stack">Full Stack</option>-->
+
+  <!--  </select>-->
+  <div>C++</div>
+  </div>
+ 
+  <!--<button type="submit" class="btn btn-warning">Submit</button>-->
+</form>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       <button type="submit" class="btn btn-warning">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
     
     @endsection
         
