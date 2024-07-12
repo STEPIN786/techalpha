@@ -29,8 +29,8 @@ class AboutController extends Controller
                         'msg' => $message);
         $sub = "Enquiry from Website";
         Mail::send('frontend.email_demo',compact('detail'), function ($message) use($sub) {
-            $message->from('noreply@ahurahealing.com','Enquiry');
-            $message->to('noreply@ahurahealing.com');
+            $message->from('noreply@techalphainstitute.com','Enquiry');
+            $message->to('techalphainstitute@techalphainstitute.com');
             $message->subject($sub);
         });
 
