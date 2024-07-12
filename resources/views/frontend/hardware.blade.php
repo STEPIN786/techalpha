@@ -462,7 +462,7 @@
                     <!--<button type="submit" class="btn btn-warning">Submit</button>-->
                 
 
-            </div>
+            </div>`
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="submit" class="btn btn-warning">Submit</button>
@@ -472,7 +472,7 @@
     </div>
 </div>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
     <script>
          $("#my_form").validate({
             rules: {
