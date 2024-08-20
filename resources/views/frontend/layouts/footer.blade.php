@@ -19,16 +19,16 @@
                                 <h5>Follow Us</h5>
                                 <ul>
                                     <li class="facebook">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.facebook.com/techalphapune" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                     </li>
                                     <li class="twitter">
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-twitter" target="_blank"></i></a>
                                     </li>
                                     <li class="instagram">
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.instagram.com/team_tech_alpha_/" target="_blank"><i class="fab fa-instagram"></i></a>
                                     </li>
                                     <li class="linkedin">
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in" target="_blank"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -134,15 +134,15 @@
         </div>
 
         <div class="all_widget_mob">
-<a href="https://www.facebook.com/people/Nextgen-Solutions/100065190182256/" target="_blank" class="wid_get facebook"><i class="fa fa-facebook"></i></a>
+<a href="https://www.facebook.com/techalphapune" target="_blank" class="wid_get facebook"><i class="fa fa-facebook"></i></a>
 
-<a href="https://www.instagram.com/nextgensolutionspune/" target="_blank" class="wid_get instagram"><i class="fa fa-instagram"></i></a>
+<a href="https://www.instagram.com/team_tech_alpha_/" target="_blank" class="wid_get instagram"><i class="fa fa-instagram"></i></a>
 
-<a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F100746715%2Fadmin%2Finbox%2F" class="wid_get call" style=" font-size: 18px;"><i class="fa fa-linkedin"></i></a>
+<a href="#" class="wid_get call" style=" font-size: 18px;"><i class="fa fa-linkedin"></i></a>
 
 <a href="#" target="_blank" class="wid_get twitter"><i class="fa fa-twitter"></i></a> 
 
-<a href="#" target="_blank" class="wid_get whatsapp"><i class="fa fa-youtube"></i></a>
+<a href="https://www.youtube.com/@techalphacomputerinstitute8005" target="_blank" class="wid_get whatsapp"><i class="fa fa-youtube"></i></a>
 
 
 
