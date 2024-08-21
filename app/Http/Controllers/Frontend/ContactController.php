@@ -31,7 +31,7 @@ class ContactController extends Controller
      // Send email
      
        Mail::to('techalphainstitute@techalphainstitute.com')->send(new ContactFormSubmitted($request->all()));
-       session()->flash('message', 'Your message has been sent successfully!');
+       session()->flash('success', true);
 
          return redirect()->back();
     }
@@ -52,7 +52,7 @@ class ContactController extends Controller
      // Send email
      
        Mail::to('techalphainstitute@techalphainstitute.com')->send(new CourseInqurySubmitted($request->all()));
-       session()->flash('message', 'Your message has been sent successfully!');
+       session()->flash('success' , true);
 
          return redirect()->back();
     }
