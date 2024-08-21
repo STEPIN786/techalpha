@@ -28,7 +28,7 @@ class CourseInqurySubmitted extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-           subject: 'Inquiry for '.$this->formData->course,
+           subject: 'Inquiry for '.$this->formData['course'],
         );
     }
 
