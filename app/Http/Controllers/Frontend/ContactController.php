@@ -42,12 +42,11 @@ class ContactController extends Controller
         $request->validate([
             'name' => 'required',
             'phone_no' => 'required',
-            'email' => 'required|email',
             'course' => 'required'
         ]);
 
        
-        echo "here";die;
+        // echo "here";die;
      
      // Send email
      
