@@ -580,6 +580,7 @@
 
 
 <!-- Modal -->
+<!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -588,63 +589,62 @@
                 <h5 class="modal-title" id="exampleModalLongTitle">Connect now</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
-                    <span class="float-right"> </button>
+                </button>
             </div>
-            <form action="{{ url('/connect') }}" id="my_form" method="post">
-              <div class="modal-body p-4">
-              {{csrf_field()}}
-              @honeypot
-                      <div class="form-group elem">
-                          <label for="exampleInputEmail1">Name</label>
-                          <input type="text" class="form-control" name="name" id="exampleInputEmail1" aria-describedby="emailHelp"
-                              placeholder="Enter your Name">
-                          <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
-                      </div>
-                      <div class="form-group elem">
-                          <label for="phone">Phone Number</label>
-                          <input type="number" name="phone" class="form-control" id="exampleInputPassword1"
-                              placeholder="Enter your phone Number">
-                      </div>
+            <div class="modal-body p-4">
 
-                      <div class="form-group">
-                          <label for="exampleFormControlSelect1"> Course</label>
-                          <!--  <select class="form-control" id="exampleFormControlSelect1">-->
-                          <!--<option value="Python Full Stack Developer">Python Full Stack Developer</option>-->
-                          <!--<option value="Hardware">Hardware</option>-->
-                          <!--<option value="Data Analytics">Data Analytics</option>-->
-                          <!--<option value="Graphics Designing">Graphics Designing</option>-->
-                          <!--<option value="MSCIT">MSCIT</option>-->
-                          <!--<option value="MS Office">MS Office</option>-->
-                          <!--<option value="C++">C++</option>-->
-                          <!--<option value="Advance Excel">Advance Excel</option>-->
-                          <!--<option value="Tally Prime">Tally Prime</option>-->
-                          <!--<option value="C Programming">C Programming</option>-->
-                          <!--<option value="Java Core">Java Core</option>-->
-                          <!--<option value="Java Advance">Java Advance</option>-->
-                          <!--<option value="Core Python">Core Python</option>-->
-                          <!--<option value="C#">C#</option>-->
-                          <!--<option value="Advanced Coding">Advanced Coding</option>-->
-                          <!--<option value="Digital Marketing">Digital Marketing</option>-->
-                          <!--<option value="Scratch">Scratch</option>-->
-                          <!--<option value="SQL">SQL</option>-->
-                          <!--<option value="Basic Coding">Basic Coding</option>-->
-                          <!--<option value="Full Stack">Full Stack</option>-->
-                          <input type="hidden" name="message" value="Graphics Designing" />
-                          <div>Graphics Designing</div>
+            <form method="post" action="{{route('course.submit)}}">
+                {{ csrf_field() }}
+                @honeypot
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter your Name" name="name">
+                        <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" class="form-control" id="exampleInputPassword1"
+                            placeholder="Enter your phone Number" name="phone_no" max="10">
+                    </div>
 
-                          <!--  </select>-->
-                      </div>
+                    <div class="form-group">
+                    <input type="hidden" name="course" value="Graphics Designing" />
+                        <label for="exampleFormControlSelect1"> Course</label>
+                        <!--  <select class="form-control" id="exampleFormControlSelect1">-->
+                        <!--<option value="Python Full Stack Developer">Python Full Stack Developer</option>-->
+                        <!--<option value="Hardware">Hardware</option>-->
+                        <!--<option value="Data Analytics">Data Analytics</option>-->
+                        <!--<option value="Graphics Designing">Graphics Designing</option>-->
+                        <!--<option value="MSCIT">MSCIT</option>-->
+                        <!--<option value="MS Office">MS Office</option>-->
+                        <!--<option value="C++">C++</option>-->
+                        <!--<option value="Advance Excel">Advance Excel</option>-->
+                        <!--<option value="Tally Prime">Tally Prime</option>-->
+                        <!--<option value="C Programming">C Programming</option>-->
+                        <!--<option value="Java Core">Java Core</option>-->
+                        <!--<option value="Java Advance">Java Advance</option>-->
+                        <!--<option value="Core Python">Core Python</option>-->
+                        <!--<option value="C#">C#</option>-->
+                        <!--<option value="Advanced Coding">Advanced Coding</option>-->
+                        <!--<option value="Digital Marketing">Digital Marketing</option>-->
+                        <!--<option value="Scratch">Scratch</option>-->
+                        <!--<option value="SQL">SQL</option>-->
+                        <!--<option value="Basic Coding">Basic Coding</option>-->
+                        <!--<option value="Full Stack">Full Stack</option>-->
 
-                      <!--<button type="submit" class="btn btn-warning">Submit  <span class="float-right">         <i class="fa fa-angle-down" aria-hidden="true"></i>     </span>         </button>-->
-                
+                        <!--  </select>-->
+                        <div>Graphics Designing</div>
+                    </div>
 
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close <span class="float-right">
-                  </button>
-                  <button type="submit" class="btn btn-warning">Submit <span class="float-right"> </button>
-              </div>
-            </form>
+                    <!--<button type="submit" class="btn btn-warning">Submit</button>-->
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-warning">Submit</button>
+            </div>
         </div>
     </div>
 </div>
