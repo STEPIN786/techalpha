@@ -787,9 +787,9 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+            <form method="post" action="{{route('course.submit')}}">
             <div class="modal-body p-4">
 
-            <form method="post" action="{{route('course.submit')}}">
                 {{ csrf_field() }}
                 @honeypot
                     <div class="form-group">
@@ -834,13 +834,13 @@
                     </div>
 
                     <!--<button type="submit" class="btn btn-warning">Submit</button>-->
-                </form>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-warning">Submit</button>
-            </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
