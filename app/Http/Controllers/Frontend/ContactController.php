@@ -47,7 +47,7 @@ class ContactController extends Controller
         ]);
 
        
-        // echo "here";die;
+        echo "here";die;
      
      // Send email
      
