@@ -795,13 +795,13 @@
                     <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Enter your Name" name="name">
+                            placeholder="Enter your Name" name="name" required>
                         <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone Number</label>
-                        <input type="number" class="form-control" id="exampleInputPassword1"
-                            placeholder="Enter your phone Number" name="phone_no" max="10">
+                        <input type="text" class="form-control" id="exampleInputPassword1"
+                        placeholder="Enter your phone Number" minlength="10" maxlength="10" oninput="this.value = this.value.replace(/\D/g, ''); if (this.value.length > 10) this.value = this.value.slice(0, 10);" name="phone_no" required>
                     </div>
 
                     <div class="form-group">

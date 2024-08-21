@@ -426,8 +426,8 @@
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone Number</label>
-                        <input type="number" class="form-control" id="exampleInputPassword1"
-                            placeholder="Enter your phone Number" name="phone_no" max="10">
+                        <input type="text" class="form-control" id="exampleInputPassword1"
+                        placeholder="Enter your phone Number" minlength="10" maxlength="10" oninput="this.value = this.value.replace(/\D/g, ''); if (this.value.length > 10) this.value = this.value.slice(0, 10);" name="phone_no" required>
                     </div>
 
                     <div class="form-group">
