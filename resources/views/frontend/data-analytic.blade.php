@@ -789,7 +789,7 @@
             </div>
             <div class="modal-body p-4">
 
-            <form method="post" action="{{route('course.submit)}}">
+            <form method="post" action="{{route('course.submit')}}">
                 {{ csrf_field() }}
                 @honeypot
                     <div class="form-group">
