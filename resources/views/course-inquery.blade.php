@@ -52,7 +52,6 @@
         <h1>Contact from <a href="https://techalphainstitute.com/">techalphainstitute</a></h1>
         <div class="details">
             <p><strong>Name:</strong> {{ $formData['name'] }}</p>
-            <p><strong>Email:</strong> {{ $formData['email'] }}</p>
             <p><strong>Phone Number:</strong> {{ $formData['phone_no'] }}</p>
             <p><strong>course:</strong> {{ $formData['course'] }}.</p>
         </div>
